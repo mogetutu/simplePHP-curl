@@ -25,7 +25,7 @@ https://github.com/mogetutu/laravel-curl
 
 ## Examples
 
-    $this->load->library('curl');
+    $this->curl = New Curl;
 
 ### Simple calls
 

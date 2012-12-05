@@ -1,0 +1,26 @@
+{
+    "name": "laravel/curl",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "Laravel Curl Helper Library inspired by Phil",
+    "keywords": ["curl", "laravel", "php"],
+    "homepage": "https://github.com/philsturgeon/codeigniter-curl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philip Sturgeon",
+            "homepage": "http://philsturgeon.co.uk/code/codeigniter-curl"
+        },
+        {
+            "name": "Isaak Mogetutu",
+            "homepage": "http://twitter.com/mogetutu"
+        }
+    ],
+    "require": {
+        "php": ">=5.1",
+        "lib-curl": "*"
+    },
+    "autoload": {
+        "psr-0": { "Curl": "libraries/" }
+    }
+}

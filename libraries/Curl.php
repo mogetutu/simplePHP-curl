@@ -25,11 +25,9 @@ class Curl {
 
     function __construct($url = '')
     {
-        Log::write('debug', 'cURL Class Initialized');
-
         if ( ! $this->is_enabled())
         {
-            Log::write('error', 'cURL Class - PHP was not built with cURL enabled. Rebuild PHP with --with-curl to use cURL.');
+            throw new CurlException('cURL Class - PHP was not built with cURL enabled. Rebuild PHP with --with-curl to use cURL.');
         }
 
         $url AND $this->create($url);
@@ -371,6 +369,8 @@ class Curl {
     }
 
 }
+
+Class CurlException extends Exception {}
 
 /* End of file Curl.php */
 /* Location: ./libraries/Curl.php */

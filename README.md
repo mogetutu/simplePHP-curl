@@ -25,66 +25,66 @@ https://github.com/mogetutu/laravel-curl
 
 ## Examples
 
-    $this->curl = New Curl;
+    $curl = New Curl;
 
 ### Simple calls
 
 These do it all in one line of code to make life easy. They return the body of the page, or FALSE on fail.
 
     // Simple call to remote URL
-    echo $this->curl->simple_get('http://example.com/');
+    echo $curl->simple_get('http://example.com/');
 
     // Simple call to CI URI
-    $this->curl->simple_post('controller/method', array('foo'=>'bar'));
+    $curl->simple_post('controller/method', array('foo'=>'bar'));
 
     // Set advanced options in simple calls
     // Can use any of these flags http://uk3.php.net/manual/en/function.curl-setopt.php
 
-    $this->curl->simple_get('http://example.com', array(CURLOPT_PORT => 8080));
-    $this->curl->simple_post('http://example.com', array('foo'=>'bar'), array(CURLOPT_BUFFERSIZE => 10));
+    $curl->simple_get('http://example.com', array(CURLOPT_PORT => 8080));
+    $curl->simple_post('http://example.com', array('foo'=>'bar'), array(CURLOPT_BUFFERSIZE => 10));
 
 ### Advanced calls
 
 These methods allow you to build a more complex request.
 
     // Start session (also wipes existing/previous sessions)
-    $this->curl->create('http://example.com/');
+    $curl->create('http://example.com/');
 
     // Option & Options
-    $this->curl->option(CURLOPT_BUFFERSIZE, 10);
-    $this->curl->options(array(CURLOPT_BUFFERSIZE => 10));
+    $curl->option(CURLOPT_BUFFERSIZE, 10);
+    $curl->options(array(CURLOPT_BUFFERSIZE => 10));
 
     // More human looking options
-    $this->curl->option('buffersize', 10);
+    $curl->option('buffersize', 10);
 
     // Login to HTTP user authentication
-    $this->curl->http_login('username', 'password');
+    $curl->httpLogin('username', 'password');
 
     // Post - If you do not use post, it will just run a GET request
     $post = array('foo'=>'bar');
-    $this->curl->post($post);
+    $curl->post($post);
 
     // Cookies - If you do not use post, it will just run a GET request
     $vars = array('foo'=>'bar');
-    $this->curl->set_cookies($vars);
+    $curl->setCookies($vars);
 
     // Proxy - Request the page through a proxy server
     // Port is optional, defaults to 80
-    $this->curl->proxy('http://example.com', 1080);
-    $this->curl->proxy('http://example.com');
+    $curl->proxy('http://example.com', 1080);
+    $curl->proxy('http://example.com');
 
     // Proxy login
-    $this->curl->proxy_login('username', 'password');
+    $curl->proxyLogin('username', 'password');
 
     // Execute - returns responce
-    echo $this->curl->execute();
+    echo $curl->execute();
 
     // Debug data ------------------------------------------------
 
     // Errors
-    $this->curl->error_code; // int
-    $this->curl->error_string;
+    $curl->error_code; // int
+    $curl->error_string;
 
     // Information
-    $this->curl->info; // array
+    $curl->info; // array
 

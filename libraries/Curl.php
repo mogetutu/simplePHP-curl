@@ -181,7 +181,7 @@ class Curl
         // Add in the specific options provided
         $this->options($options);
 
-	   $this->httpMethod('delete');
+        $this->httpMethod('delete');
 
         $this->option(CURLOPT_POSTFIELDS, $params);
     }

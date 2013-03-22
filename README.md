@@ -1,3 +1,41 @@
+## Better, well tested and developed cURL Libraries you can use.
+- Guzzle: [www.guzzlephp.org]
+- Buzz: [https://github.com/kriswallsmith/Buzz]
+- Requests: [http://requests.ryanmccue.info/]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Laravel-cURL
 
 Laravel-cURL is a library born out of Codeigniter-cURL by Phil[http://philsturgeon.co.uk/code/codeigniter-curl] which makes it easy to do simple cURL requests and makes more complicated cURL requests easier too.

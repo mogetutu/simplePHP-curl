@@ -1,44 +1,12 @@
 ## Better, well tested and developed cURL Libraries you can use.
-- Guzzle: [www.guzzlephp.org]
-- Buzz: [https://github.com/kriswallsmith/Buzz]
-- Requests: [http://requests.ryanmccue.info/]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [Guzzle](www.guzzlephp.org)
+- [Buzz](https://github.com/kriswallsmith/Buzz)
+- [Requests](http://requests.ryanmccue.info/)
 
 
 # Laravel-cURL
 
-Laravel-cURL is a library born out of Codeigniter-cURL by Phil[http://philsturgeon.co.uk/code/codeigniter-curl] which makes it easy to do simple cURL requests and makes more complicated cURL requests easier too.
+Laravel-cURL is a library born out of Codeigniter-cURL by [Phil](http://philsturgeon.co.uk/code/codeigniter-curl) which makes it easy to do simple cURL requests and makes more complicated cURL requests easier too.
 
 ## Requirements
 
@@ -114,7 +82,7 @@ These methods allow you to build a more complex request.
     // Proxy login
     $curl->proxyLogin('username', 'password');
 
-    // Execute - returns responce
+    // Execute - returns response
     echo $curl->execute();
 
     // Debug data ------------------------------------------------

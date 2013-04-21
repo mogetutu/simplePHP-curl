@@ -1,5 +1,5 @@
 ## Better, well tested and developed cURL Libraries you can use.
-- [Guzzle](www.guzzlephp.org)
+- [Guzzle](http://www.guzzlephp.org)
 - [Buzz](https://github.com/kriswallsmith/Buzz)
 - [Requests](http://requests.ryanmccue.info/)
 

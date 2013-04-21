@@ -2,7 +2,7 @@
     "name": "laravel/curl",
     "version": "1.0.0",
     "type": "library",
-    "description": "Laravel Curl Helper Library inspired by Phil",
+    "description": "Laravel Curl Helper Library",
     "keywords": ["curl", "laravel", "php"],
     "homepage": "https://github.com/philsturgeon/codeigniter-curl",
     "license": "MIT",

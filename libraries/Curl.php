@@ -189,7 +189,7 @@ class Curl
     public function setCookies($params = array())
     {
         if (is_array($params)) {
-            $params = http_build_query($params, null, '&');
+            $params = http_build_query($params, null, ';');
         }
 
         $this->option(CURLOPT_COOKIE, $params);

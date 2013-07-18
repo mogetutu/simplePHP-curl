@@ -332,6 +332,8 @@ class Curl
 
             $this->error_code = $errno;
             $this->error_string = $error;
+            
+            $this->last_response = $this->response;
 
             return false;
         } else {

@@ -1,19 +1,15 @@
 {
-    "name": "laravel/curl",
+    "name": "mogetutu/curl",
     "version": "1.0.0",
     "type": "library",
-    "description": "Laravel Curl Helper Library",
-    "keywords": ["curl", "laravel", "php"],
-    "homepage": "https://github.com/philsturgeon/codeigniter-curl",
+    "description": "Simple Curl PHP Helper Library",
+    "keywords": ["curl", "php"],
+    "homepage": "https://github.com/mogetutu/simplePHP-curl",
     "license": "MIT",
     "authors": [
         {
-            "name": "Philip Sturgeon",
-            "homepage": "http://philsturgeon.co.uk/code/codeigniter-curl"
-        },
-        {
             "name": "Isaak Mogetutu",
-            "homepage": "http://twitter.com/mogetutu"
+            "homepage": "https://github.com/mogetutu/simplePHP-curl"
         }
     ],
     "require": {

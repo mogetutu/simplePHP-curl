@@ -23,7 +23,7 @@
 
 ## Download
 
-https://github.com/mogetutu/laravel-curl
+https://github.com/mogetutu/simplePHP-curl
 
 ## Examples
 

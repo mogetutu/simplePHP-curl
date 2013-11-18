@@ -9,7 +9,7 @@
  * @subpackage Libraries
  * @author     Isaak Mogetutu <imogetutu@gmail.com>
  * @license    http://philsturgeon.co.uk/code/dbad-license dbad-license
- * @link       https://github.com/mogetutu/laravel-curl/
+ * @link       https://github.com/mogetutu/simplePHP-curl
  */
 class Curl
 {
@@ -275,7 +275,7 @@ class Curl
      */
     public function create($url)
     {
-        // If no a protocol in URL, assume its a Laravel link
+        // If no a protocol in URL, assume its a link
         if ( ! preg_match('!^\w+://! i', $url)) {
             $url = url($url);
         }

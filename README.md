@@ -4,16 +4,12 @@
 - [Requests](http://requests.ryanmccue.info/)
 
 
-# Laravel-cURL
-
-Laravel-cURL is a library born out of Codeigniter-cURL by [Phil](http://philsturgeon.co.uk/code/codeigniter-curl) which makes it easy to do simple cURL requests and makes more complicated cURL requests easier too.
+# Simple PHP-cURL library
 
 ## Requirements
 
 1. PHP 5.1+
-2. Laravel 3
-3. PHP 5 (configured with cURL enabled)
-4. libcurl
+2. libcurl
 
 ## Features
 

@@ -1,15 +1,15 @@
 <?php
 /**
- * Laravel Curl Class
+ * Simple Curl Library
  *
  * Work with remote servers via cURL much easier than using the native PHP bindings.
  *
  * @category   Libraries
- * @package    Laravel
+ * @package    Curl
  * @subpackage Libraries
- * @author     Philip Sturgeon <imogetutu@gmail.com>
+ * @author     Isaak Mogetutu <imogetutu@gmail.com>
  * @license    http://philsturgeon.co.uk/code/dbad-license dbad-license
- * @link       http://philsturgeon.co.uk/code/Codeigniter-curl
+ * @link       https://github.com/mogetutu/laravel-curl/
  */
 class Curl
 {
@@ -332,7 +332,7 @@ class Curl
 
             $this->error_code = $errno;
             $this->error_string = $error;
-            
+
             $this->last_response = $this->response;
 
             return false;
